@@ -1,0 +1,28 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "Requirements for Todolist App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkthom/TodoList.git"
+  },
+  "author": "Joshua Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkthom/TodoList/issues"
+  },
+  "homepage": "https://github.com/jkthom/TodoList#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  }
+}
